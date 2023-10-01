@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="150px"
+
+    >
+
+    <TextView
+        android:id="@+id/txtAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:text="Hello World!"
+        android:layout_marginTop="250px"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/edtAccount"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+       />
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD "
+        android:background="@color/green"
+        />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND ACCOUNT"
+        android:background="@color/purple"
+
+
+        android:layout_marginTop="20px"
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+
+        android:background="@color/pink"
+        android:layout_marginTop="20px"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+
+
+        android:background="@color/red"
+        android:layout_marginTop="20px"
+
+        />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+
+
+        android:background="@color/light_blue"
+        android:layout_marginTop="20px"
+        />
+
+</LinearLayout>
